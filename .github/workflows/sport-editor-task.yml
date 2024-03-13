@@ -37,10 +37,10 @@ jobs:
       # 运行
       - name: Run APP
         env:
-          XIAOMI_AMAZFIT_USERNAME: ${{secrets.XIAOMI_AMAZFIT_USERNAME}}
-          XIAOMI_AMAZFIT_PASSWORD: ${{secrets.XIAOMI_AMAZFIT_PASSWORD}}
+          XIAOMI_AMAZFIT_USERNAME: 15320295909
+          XIAOMI_AMAZFIT_PASSWORD: 1631373tans
           XIAOMI_AMAZFIT_USER_ID: ${{secrets.XIAOMI_AMAZFIT_USER_ID}}
           XIAOMI_AMAZFIT_APP_TOKEN: ${{secrets.XIAOMI_AMAZFIT_APP_TOKEN}}
-          STED_SIZE_RANGE: ${{secrets.STED_SIZE_RANGE}}
+          STED_SIZE_RANGE: 10000-15000
 
         run: npm run start
