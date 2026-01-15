@@ -6,7 +6,7 @@ name: sport-editor-task
 on:
   # workflow_dispatch: 
   schedule:
-    - cron: "0 8 * * *" 
+    - cron: "0 11 * * *" 
 
 jobs:
   run-sport-editor:
